@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Jonathan Suconots" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jonathan Suconota">Jonathan Suconota</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jonscrp@gmail.com" class="contact-link">jonscrp@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Github</p>
+
+              <a href="https://github.com/jonscrp" class="contact-link">jonscrp</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Linkedin</p>
+              
+              <a href="https://www.linkedin.com/in/jonathan-suconota-80950a295" class="contact-link">Jonathan Suconota</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+      
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Junior Computer Science Student at CUNY Queens College
+            I enjoy, working in complex problems, asking questions and creatively working out a solution.
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+          
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/President.png" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Code ReSolve President</h4>
+
+                <p class="service-item-text">
+                  I get to meet a lot of computer science students and brainstorm workshops that could benefit their learning.
+                  I try asking for feeback on how to improve the workshops. 
+                  <br>I also manage and assign tasks for the rest of the board members.
+                </p>
+
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Mentor.png" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Kessler Mentor</h4>
+
+                <p class="service-item-text">
+                  I get to meet first generation college students who would benefit from having someone who is also a first generation college student and can re-direct them to
+                  school resources or advice them on classes they could take.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/web-icon.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Building Club Website</h4>
+
+                <p class="service-item-text">
+                  I am trying to organizing a competition to build our club website during winter break. I think it will be a good way to encourage students to work
+                  on a project during the winter and can help them build new relations as they find teammates to work with.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CUNY Queens College</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                CUNY Queens College | Bachelor of Science in Computer Science Expected Graduation Year: 2025 
+                Relevant Coursework: Databases, Operating Systems, Object Oriented C++/Java Programming, Internet and Web Technologies, 
+                Probability and Statistics, Linear Algebra, and Calculus 1 - 2.
+              </p>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mentor - Kessler Mentor Program - CUNY Queens College</h4>
+
+              <span>August 2023 - Present</span>
+
+              <p class="timeline-text">
+                - Plan 1 social event per semester.<br>
+                - Meet with assigned meentee to support college transition.<br>
+                - Attend monthly professional development meetings.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">President - Code Resolve - CUNY Queens College</h4>
+
+              <span>August 2023 - Present</span>
+
+              <p class="timeline-text">
+                - Successfully managed and grew a computer science club, increasing memebership to over 400 students. <br>
+                - Organize technical and profesional workshops. Then collect student feeback to improve them. <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern - CUNY ASRC</h4>
+
+              <span>July 2023 - August 2023</span>
+
+              <p class="timeline-text">
+                - Assembled an tested airquality sensor kits for the Community Sensor Lab<br>
+                - Learned to how to program Arduino microcontrollers to collect environmental data.<br>
+                - Assisted in the preparation of educational materials regarding environmental science and technology.<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <!--
+          - projects
+        -->
+
+        <section class="project">
+
+          <h3 class="h3 service-title">Fun</h3>
+
+          <ul class="project-list">
+          
+            <li class="project-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pro Sync - Python, JavaScript, Google Calendar API, and Open AI - HackHarvard</h4>
+
+                <ul class="project-item-text">
+                  <li> 
+                    Create a schedule builder that promted OpenAI to retrieve the best possible plan to prepare for an upcoming exam 
+                    and then stored this plan in the Google Calender API. 
+                  </li>
+                </ul>
+                
+                <div class="project-img">
+                  <a href="https://devpost.com/software/prosync">
+                    <img src="./assets/images/ProSync.png" alt="ProSync" width="250" height="250">
+                  </a>
+                </div>
+              </div>
+
+            </li>
+
+            <li class="project-item">
+
+              <div class="project-content-box">
+                <h4 class="h4 service-item-title">Open Map System, Java Script, MongoDB, Express and React - Open Source Hackathon</h4>
+
+                <ul class="project-item-text">
+                  <li> 
+                    Organized a group of 7 students to participate in an Open-Source Hackthon to build an interactive map that allow students to rate the
+                    the school bathrooms cleanness and crowding.  
+                  </li>
+                </ul>
+            
+                <div class="project-img">
+                  <a href="https://devpost.com/software/poopy-maps">
+                    <img src="./assets/images/OpenMap.png" alt="OpenMap" width="250" height="250">
+                  </a>   
+                </div>
+              </div>
+
+            </li>
+
+            <li class="project-item">
+
+              <div class="project-content-box">
+                <h4 class="h4 service-item-title">Parent-Child-GrandChild, C++/C/ POSIX - Spring 2023</h4>
+
+                <ul class="project-item-text">
+                  <li>
+                    Built a parent-child process relation program where 3 processes communicate with one another using shared memory for IPC(inter-process communication). 
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="project-item">
+
+              <div class="project-content-box">
+                <h4 class="h4 service-item-title">Boss Worker, C++/C/POSIX - Spring 2023</h4>
+
+                <ul class="project-item-text">
+                  <li>
+                    Designed and built a multithreaded program that used the Boss Worker Design Pattern 
+                    to read intructios concurrently and combined the results sysnchronously.                    
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
