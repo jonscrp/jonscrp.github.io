@@ -1,4 +1,4 @@
-__Goal of this repository: Store my projects and personal website.__
+__Goal of this repository__: Store my projects and personal website.
 
 __Projects__: 
 
